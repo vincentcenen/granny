@@ -1,0 +1,23 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Registration Form</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content padding class="content">
+
+    <input class="reg" type="text" placeholder="First Name" name="first_name" [(ngModel)]="first_name" autocomplete="off" required>
+    <br><br>
+    <input class="reg" type="text" placeholder="Middle Name" name="middle_name" [(ngModel)]="middle_name" autocomplete="off" required>
+    <br><br>
+    <input class="reg" type="text" placeholder="Last Name" name="last_name" [(ngModel)]="last_name" autocomplete="off" required>
+    <br><br>
+    <ion-button tertiary size="medium" (click)="register()">SUBMIT</ion-button>
+
+  </ion-content>
+
+  
+
+
+</ion-app>
